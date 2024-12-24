@@ -37,8 +37,8 @@ namespace openGLProject
             if (moveMouse)
             {
 
-                renderer.Par.rx = renderer.Par.rx - (dy - e.Y) / 2.0;
-                renderer.Par.ry = renderer.Par.ry - (dx - e.X) / 2.0;
+                renderer.Cam.rx = renderer.Cam.rx - (dy - e.Y) / 2.0;
+                renderer.Cam.ry = renderer.Cam.ry - (dx - e.X) / 2.0;
 
                 dx = e.X;
                 dy = e.Y;
@@ -56,8 +56,8 @@ namespace openGLProject
         }
         private void Mouse_Wheel(object sender, MouseEventArgs e)
         {
-            double m = renderer.Par.get_m() + e.Delta / 120;
-            renderer.Par.set_m(m);
+            double m = renderer.Cam.get_m() + e.Delta / 120;
+            renderer.Cam.set_m(m);
             renderer.Invalidate();
         }
 
@@ -85,49 +85,49 @@ namespace openGLProject
         }
         private void pressKey(object sender, KeyEventArgs e)
         {
-            if (!renderer.Par.perspective)
+            if (!renderer.Cam.perspective)
                 return;
 
             // Управление камерой
             switch (e.KeyCode)
             {
                 case Keys.W:
-                    renderer.Par.l -= 1.0f;
+                    renderer.Cam.l -= 1.0f;
                     break;
 
                 case Keys.S:
-                    renderer.Par.l += 1.0f;
+                    renderer.Cam.l += 1.0f;
                     break;
 
                 case Keys.Space:
-                    renderer.Par.h += 1.0f;
+                    renderer.Cam.h += 1.0f;
                     break;
 
                 case Keys.ControlKey:
-                    renderer.Par.h -= 1.0f;
+                    renderer.Cam.h -= 1.0f;
                     break;
 
                 case Keys.A:
-                    renderer.Par.ry -= 1.0f;
+                    renderer.Cam.ry -= 1.0f;
                     break;
 
                 case Keys.D:
-                    renderer.Par.ry += 1.0f;
+                    renderer.Cam.ry += 1.0f;
                     break;
 
                 case Keys.Q:
-                    if (renderer.Par.rx > -90.0f)
+                    if (renderer.Cam.rx > -90.0f)
                     { // Ограничение угла наклона вверх
-                        renderer.Par.rx -= 1.0f;
-                        renderer.Par.h += 0.2f;
+                        renderer.Cam.rx -= 1.0f;
+                        renderer.Cam.h += 0.2f;
                     }
                     break;
 
                 case Keys.E:
-                    if (renderer.Par.rx < 90.0f)
+                    if (renderer.Cam.rx < 90.0f)
                     {  // Ограничение угла наклона вниз
-                        renderer.Par.rx += 1.0f;
-                        renderer.Par.h -= 0.2f;
+                        renderer.Cam.rx += 1.0f;
+                        renderer.Cam.h -= 0.2f;
                     }
                     break;
             }
@@ -138,9 +138,9 @@ namespace openGLProject
 
         private void button3_Click(object sender, EventArgs e)
         {
-            bool p = renderer.Par.perspective;
+            bool p = renderer.Cam.perspective;
 
-            renderer.Par.perspective = !p;
+            renderer.Cam.perspective = !p;
 
             button3.Text = (!p) ? "Ortho" : "Perspective";
 

@@ -23,7 +23,8 @@ namespace openGLProject
         private float[] densities = new float[ArraySize];
 
         private static readonly float[] DensityCoefficients = { 1.0f, 0.875f, 0.75f, 0.5f, 0.25f, 0.125f, 0.0625f };
-        private static readonly float[] DistanceCoefficients = { 1.0f, 0.875f, 0.75f, 0.5f, 0.25f, 0.125f, 0.0f };
+        private static readonly float[] DistanceCoefficients = { 1.0f, 0.75f, 0.5f, 0.25f, 0.125f, 0.06f, 0.0f };
+
         private int first_el = 0;
 
         public Fog(float density, float farDistance)

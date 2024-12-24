@@ -12,13 +12,13 @@ namespace openGLProject
     public class Params
     {
         public double w = 10.0;
-        public double h = 10.0;
+        public double h = 15.0;
         public double l = 10.0;
-        public double rx = 32.5, ry = -41.5;
+        public double rx = 25, ry = 135;
         public double m = 1.0;
         public bool perspective = true;
+        public float draw_dist = 1000.0f; // Дальность прорисовки
 
-        public double[] clip = new double[] { 0, 1, 1, -0.5 };
         public double get_m() {
             return m;
         }

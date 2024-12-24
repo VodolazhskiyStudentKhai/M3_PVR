@@ -5,10 +5,9 @@ namespace openGLProject
 {
     public partial class RenderControl : OpenGL
     {
-        public Params Par = new Params();
+        public Params Cam = new Params();
 
         private int gridSize = 200; // Размер сетки
-
         private Terrain terrain;
         private Water water;
         private Sky sky;
@@ -52,22 +51,20 @@ namespace openGLProject
             glMatrixMode(GL_PROJECTION);
             glLoadIdentity();
 
-            if (Par.perspective)
-            {
-                gluPerspective(75, Width / Height, 0.5, Par.l * 10);
-                glTranslated(0, -Par.h, -Par.l - 10);
+            if (Cam.perspective) {
+                gluPerspective(75, Width / Height, 0.5, Cam.draw_dist);
+                glTranslated(0, -Cam.h, -Cam.l - 20.0);
             }
-            else
-            {
-                glOrtho(-Par.w, Par.w, -Par.h, Par.h, -Par.l * 10, Par.l * 10);
+            else {
+                glOrtho(-Cam.w, Cam.w, -Cam.h, Cam.h, -Cam.l * 10, Cam.l * 10);
             }
 
             // Установка модели-вида
             glMatrixMode(GL_MODELVIEW);
             glLoadIdentity();
-            glRotated(Par.rx, 1, 0, 0);
-            glRotated(Par.ry, 0, 1, 0);
-            glScaled(Par.m, Par.m, Par.m);
+            glRotated(Cam.rx, 1, 0, 0);
+            glRotated(Cam.ry, 0, 1, 0);
+            glScaled(Cam.m, Cam.m, Cam.m);
 
             // Включение теста глубины и отрисовка
             glEnable(GL_DEPTH_TEST);
@@ -76,22 +73,23 @@ namespace openGLProject
             terrain.CreateTerrainDisplay();
             water.RenderWater();
             clouds.Render();
-            fog.Render(Par);
+            fog.Render(Cam);
 
             glDisable(GL_DEPTH_TEST);
 
             // Завершение рендера
             glFlush();
+            Debug.WriteLine($"Camera position: x=0, y={Cam.h}, z={Cam.l}");
+            Debug.WriteLine($"Terrain position: x=0, y=0, z=0");
+
         }
 
         private void setViewPort()
         {
-            if (Width > Height)
-            {
+            if (Width > Height) {
                 glViewport((Width - Height) / 2, 0, Height, Height);
             }
-            else
-            {
+            else {
                 glViewport(0, (Height - Width) / 2, Width, Width);
             }
         }
