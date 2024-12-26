@@ -43,9 +43,7 @@
       <DependentUpon>OpenGL.cs</DependentUpon>
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Update="RenderControl\RenderControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
+    <Compile Update="RenderControl\RenderControl.cs" />
   </ItemGroup>
 
 </Project>

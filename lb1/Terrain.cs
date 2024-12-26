@@ -150,6 +150,10 @@ namespace openGLProject
         {
             voidFactor = d;
         }
+        public float[,] getHeightMap()
+        {
+            return heightMap;
+        }
         public float GetMaxHeight()
         {
             float maxHeight = 0;

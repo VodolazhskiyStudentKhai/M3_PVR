@@ -13,6 +13,7 @@ namespace openGLProject
         private Sky sky;
         private Clouds clouds; // Поле для облаков
         private Fog fog;
+        private MushroomForest forest;
 
         private bool wireframe = false;
 
@@ -27,6 +28,7 @@ namespace openGLProject
 
 
             water = new Water(gridSize, 2.0f, 0.6f); // Размеры, уровень воды и прозрачность
+            forest = new MushroomForest(terrain.getHeightMap(), gridSize, 0);
         }
 
         private void OnRender(object sender, EventArgs e)
@@ -71,6 +73,7 @@ namespace openGLProject
             glPolygonMode(GL_FRONT_AND_BACK, wireframe ? GL_LINE : GL_FILL);
 
             terrain.CreateTerrainDisplay();
+            forest.RenderMushrooms();
             water.RenderWater();
             clouds.Render();
             fog.Render(Cam);
@@ -79,9 +82,6 @@ namespace openGLProject
 
             // Завершение рендера
             glFlush();
-            Debug.WriteLine($"Camera position: x=0, y={Cam.h}, z={Cam.l}");
-            Debug.WriteLine($"Terrain position: x=0, y=0, z=0");
-
         }
 
         private void setViewPort()
@@ -143,7 +143,10 @@ namespace openGLProject
         {
             clouds.SetCloudSpeed(f);
         }
-
+        public int SetMushrooms(int i)
+        {
+            return forest.setCount(i);
+        }
     }
 
 }

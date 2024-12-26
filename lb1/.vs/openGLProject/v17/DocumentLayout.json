@@ -3,44 +3,56 @@
   "WorkspaceRootPath": "D:\\OpenglProj\\lb1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|d:\\openglproj\\lb1\\rendercontrol\\rendercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|solutionrelative:rendercontrol\\rendercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|d:\\openglproj\\lb1\\fog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|solutionrelative:fog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|d:\\openglproj\\lb1\\params.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|solutionrelative:params.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|d:\\openglproj\\lb1\\mushroomforest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|solutionrelative:mushroomforest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|d:\\openglproj\\lb1\\rendercontrol\\rendercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|solutionrelative:rendercontrol\\rendercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|D:\\OpenglProj\\lb1\\rendercontrol\\rendercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|solutionrelative:rendercontrol\\rendercontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|d:\\openglproj\\lb1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|d:\\openglproj\\lb1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|D:\\OpenglProj\\lb1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|d:\\openglproj\\lb1\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|solutionrelative:mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|d:\\openglproj\\lb1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|d:\\openglproj\\lb1\\terrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|solutionrelative:terrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|d:\\openglproj\\lb1\\fog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|solutionrelative:fog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|d:\\openglproj\\lb1\\sky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|solutionrelative:sky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|d:\\openglproj\\lb1\\rendercontrol\\rendercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|solutionrelative:rendercontrol\\rendercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|d:\\openglproj\\lb1\\clouds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|solutionrelative:clouds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|d:\\openglproj\\lb1\\rendercontrol\\rendercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|solutionrelative:rendercontrol\\rendercontrol.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|d:\\openglproj\\lb1\\params.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|solutionrelative:params.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|d:\\openglproj\\lb1\\opengl\\opengl.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,20 +63,12 @@
       "RelativeMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|solutionrelative:opengl\\opengl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|d:\\openglproj\\lb1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|d:\\openglproj\\lb1\\water.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|solutionrelative:water.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|d:\\openglproj\\lb1\\light.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|solutionrelative:light.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|d:\\openglproj\\lb1\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|solutionrelative:mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E52635A9-2E24-4F49-8E98-86E767E31990}|openGLProject.csproj|d:\\openglproj\\lb1\\openglproject.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
@@ -78,11 +82,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
+              "Title": "MushroomForest.cs",
+              "DocumentMoniker": "D:\\OpenglProj\\lb1\\MushroomForest.cs",
+              "RelativeDocumentMoniker": "MushroomForest.cs",
+              "ToolTip": "D:\\OpenglProj\\lb1\\MushroomForest.cs",
+              "RelativeToolTip": "MushroomForest.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAQwBAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T17:46:02.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "OpenGL.Designer.cs",
               "DocumentMoniker": "D:\\OpenglProj\\lb1\\OpenGL\\OpenGL.Designer.cs",
               "RelativeDocumentMoniker": "OpenGL\\OpenGL.Designer.cs",
@@ -94,20 +111,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Fog.cs",
               "DocumentMoniker": "D:\\OpenglProj\\lb1\\Fog.cs",
               "RelativeDocumentMoniker": "Fog.cs",
               "ToolTip": "D:\\OpenglProj\\lb1\\Fog.cs",
               "RelativeToolTip": "Fog.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAwwB8AAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwBAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T11:34:35.381Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "OpenGL.cs",
               "DocumentMoniker": "D:\\OpenglProj\\lb1\\OpenGL\\OpenGL.cs",
               "RelativeDocumentMoniker": "OpenGL\\OpenGL.cs",
@@ -119,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "RenderControl.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "D:\\OpenglProj\\lb1\\RenderControl\\RenderControl.cs",
               "RelativeDocumentMoniker": "RenderControl\\RenderControl.cs",
@@ -131,20 +148,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "MainForm.cs",
               "DocumentMoniker": "D:\\OpenglProj\\lb1\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
               "ToolTip": "D:\\OpenglProj\\lb1\\MainForm.cs",
               "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAgwKMAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAuwMgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T22:44:26.719Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "openGLProject",
               "DocumentMoniker": "D:\\OpenglProj\\lb1\\openGLProject.csproj",
               "RelativeDocumentMoniker": "openGLProject.csproj",
@@ -155,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "Params.cs",
               "DocumentMoniker": "D:\\OpenglProj\\lb1\\Params.cs",
               "RelativeDocumentMoniker": "Params.cs",
@@ -163,12 +180,11 @@
               "RelativeToolTip": "Params.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:44:26.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T22:44:26.104Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Light.cs",
               "DocumentMoniker": "D:\\OpenglProj\\lb1\\Light.cs",
               "RelativeDocumentMoniker": "Light.cs",
@@ -180,46 +196,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "RenderControl.cs",
               "DocumentMoniker": "D:\\OpenglProj\\lb1\\RenderControl\\RenderControl.cs",
               "RelativeDocumentMoniker": "RenderControl\\RenderControl.cs",
               "ToolTip": "D:\\OpenglProj\\lb1\\RenderControl\\RenderControl.cs",
               "RelativeToolTip": "RenderControl\\RenderControl.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDcAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T22:44:31.722Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "RenderControl.Designer.cs",
               "DocumentMoniker": "D:\\OpenglProj\\lb1\\RenderControl\\RenderControl.Designer.cs",
               "RelativeDocumentMoniker": "RenderControl\\RenderControl.Designer.cs",
               "ToolTip": "D:\\OpenglProj\\lb1\\RenderControl\\RenderControl.Designer.cs",
               "RelativeToolTip": "RenderControl\\RenderControl.Designer.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB8AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwBIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T12:33:34.872Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 6,
               "Title": "MainForm.Designer.cs",
               "DocumentMoniker": "D:\\OpenglProj\\lb1\\MainForm.Designer.cs",
               "RelativeDocumentMoniker": "MainForm.Designer.cs",
               "ToolTip": "D:\\OpenglProj\\lb1\\MainForm.Designer.cs",
               "RelativeToolTip": "MainForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIgAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGoBAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T22:44:31.749Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Water.cs",
               "DocumentMoniker": "D:\\OpenglProj\\lb1\\Water.cs",
               "RelativeDocumentMoniker": "Water.cs",
@@ -231,16 +247,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Terrain.cs",
               "DocumentMoniker": "D:\\OpenglProj\\lb1\\Terrain.cs",
               "RelativeDocumentMoniker": "Terrain.cs",
               "ToolTip": "D:\\OpenglProj\\lb1\\Terrain.cs",
               "RelativeToolTip": "Terrain.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwKcAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAI0AAAAAAAAAAAArwJsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T22:44:31.717Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T22:44:31.717Z"
             },
             {
               "$type": "Document",
@@ -256,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\OpenglProj\\lb1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -264,11 +279,12 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T12:34:23.46Z"
+              "WhenOpened": "2024-11-27T12:34:23.46Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Sky.cs",
               "DocumentMoniker": "D:\\OpenglProj\\lb1\\Sky.cs",
               "RelativeDocumentMoniker": "Sky.cs",
@@ -280,13 +296,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Clouds.cs",
               "DocumentMoniker": "D:\\OpenglProj\\lb1\\Clouds.cs",
               "RelativeDocumentMoniker": "Clouds.cs",
               "ToolTip": "D:\\OpenglProj\\lb1\\Clouds.cs",
               "RelativeToolTip": "Clouds.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowBUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAmwHsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T22:44:31.71Z"
             }

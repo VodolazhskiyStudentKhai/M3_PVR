@@ -194,5 +194,12 @@ namespace openGLProject
             renderer.SetCloudsSpeed((float)numericUpDown9.Value);
             renderer.Invalidate();
         }
+
+        private void numericUpDown10_ValueChanged(object sender, EventArgs e)
+        {
+            int r = renderer.SetMushrooms((int)numericUpDown10.Value);
+            numericUpDown10.Value = r;
+            renderer.Invalidate();
+        }
     }
 }

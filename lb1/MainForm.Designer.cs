@@ -56,6 +56,8 @@ namespace openGLProject
             label9 = new Label();
             label10 = new Label();
             label11 = new Label();
+            numericUpDown10 = new NumericUpDown();
+            label12 = new Label();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDown2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDown3).BeginInit();
@@ -65,6 +67,7 @@ namespace openGLProject
             ((System.ComponentModel.ISupportInitialize)numericUpDown7).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDown8).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDown9).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown10).BeginInit();
             SuspendLayout();
             // 
             // renderer
@@ -89,7 +92,7 @@ namespace openGLProject
             button1.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             button1.BackgroundImageLayout = ImageLayout.Center;
             button1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            button1.Location = new System.Drawing.Point(570, 333);
+            button1.Location = new System.Drawing.Point(570, 378);
             button1.Name = "button1";
             button1.Size = new System.Drawing.Size(75, 23);
             button1.TabIndex = 25;
@@ -102,7 +105,7 @@ namespace openGLProject
             label1.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             label1.AutoSize = true;
             label1.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            label1.Location = new System.Drawing.Point(565, 313);
+            label1.Location = new System.Drawing.Point(565, 358);
             label1.Name = "label1";
             label1.Size = new System.Drawing.Size(80, 17);
             label1.TabIndex = 26;
@@ -113,7 +116,7 @@ namespace openGLProject
             label6.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             label6.AutoSize = true;
             label6.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            label6.Location = new System.Drawing.Point(565, 265);
+            label6.Location = new System.Drawing.Point(565, 310);
             label6.Name = "label6";
             label6.Size = new System.Drawing.Size(71, 17);
             label6.TabIndex = 27;
@@ -124,7 +127,7 @@ namespace openGLProject
             button2.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             button2.BackgroundImageLayout = ImageLayout.Center;
             button2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            button2.Location = new System.Drawing.Point(570, 362);
+            button2.Location = new System.Drawing.Point(570, 407);
             button2.Name = "button2";
             button2.Size = new System.Drawing.Size(85, 23);
             button2.TabIndex = 28;
@@ -162,7 +165,7 @@ namespace openGLProject
             button3.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             button3.BackgroundImageLayout = ImageLayout.Center;
             button3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            button3.Location = new System.Drawing.Point(570, 285);
+            button3.Location = new System.Drawing.Point(570, 330);
             button3.Name = "button3";
             button3.Size = new System.Drawing.Size(101, 25);
             button3.TabIndex = 30;
@@ -242,7 +245,7 @@ namespace openGLProject
             numericUpDown5.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             numericUpDown5.DecimalPlaces = 2;
             numericUpDown5.Increment = new decimal(new int[] { 1, 0, 0, 65536 });
-            numericUpDown5.Location = new System.Drawing.Point(635, 179);
+            numericUpDown5.Location = new System.Drawing.Point(637, 179);
             numericUpDown5.Maximum = new decimal(new int[] { 1, 0, 0, 0 });
             numericUpDown5.Name = "numericUpDown5";
             numericUpDown5.Size = new System.Drawing.Size(67, 23);
@@ -325,7 +328,7 @@ namespace openGLProject
             label9.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             label9.AutoSize = true;
             label9.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            label9.Location = new System.Drawing.Point(561, 185);
+            label9.Location = new System.Drawing.Point(563, 185);
             label9.Name = "label9";
             label9.Size = new System.Drawing.Size(74, 17);
             label9.TabIndex = 44;
@@ -336,7 +339,7 @@ namespace openGLProject
             label10.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             label10.AutoSize = true;
             label10.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            label10.Location = new System.Drawing.Point(561, 208);
+            label10.Location = new System.Drawing.Point(564, 208);
             label10.Name = "label10";
             label10.Size = new System.Drawing.Size(60, 17);
             label10.TabIndex = 45;
@@ -347,17 +350,40 @@ namespace openGLProject
             label11.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             label11.AutoSize = true;
             label11.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            label11.Location = new System.Drawing.Point(561, 239);
+            label11.Location = new System.Drawing.Point(564, 239);
             label11.Name = "label11";
             label11.Size = new System.Drawing.Size(69, 17);
             label11.TabIndex = 46;
             label11.Text = "Cloud spd";
+            // 
+            // numericUpDown10
+            // 
+            numericUpDown10.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            numericUpDown10.Location = new System.Drawing.Point(637, 284);
+            numericUpDown10.Maximum = new decimal(new int[] { 1000, 0, 0, 0 });
+            numericUpDown10.Name = "numericUpDown10";
+            numericUpDown10.Size = new System.Drawing.Size(67, 23);
+            numericUpDown10.TabIndex = 47;
+            numericUpDown10.ValueChanged += numericUpDown10_ValueChanged;
+            // 
+            // label12
+            // 
+            label12.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            label12.AutoSize = true;
+            label12.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            label12.Location = new System.Drawing.Point(564, 286);
+            label12.Name = "label12";
+            label12.Size = new System.Drawing.Size(71, 15);
+            label12.TabIndex = 48;
+            label12.Text = "Mushrooms";
             // 
             // MainForm
             // 
             AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new System.Drawing.Size(713, 441);
+            Controls.Add(label12);
+            Controls.Add(numericUpDown10);
             Controls.Add(label11);
             Controls.Add(label10);
             Controls.Add(label9);
@@ -397,6 +423,7 @@ namespace openGLProject
             ((System.ComponentModel.ISupportInitialize)numericUpDown7).EndInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDown8).EndInit();
             ((System.ComponentModel.ISupportInitialize)numericUpDown9).EndInit();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown10).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -427,6 +454,8 @@ namespace openGLProject
         private Label label9;
         private Label label10;
         private Label label11;
+        private NumericUpDown numericUpDown10;
+        private Label label12;
     }
 }
 
